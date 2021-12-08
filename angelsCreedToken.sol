@@ -725,7 +725,7 @@ contract BEP20 is Context, IBEP20, Ownable {
   ) internal virtual {}
 }
 
-contract AngelsCreedToken is BEP20("Angels Creed", "ACT") {
+contract AngelsCreedToken is BEP20("Angels Creed", "ANGEL") {
   uint256 private _cap = 1000000000e18;
 
   function cap() public view returns (uint256) {
